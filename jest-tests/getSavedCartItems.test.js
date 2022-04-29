@@ -1,0 +1,16 @@
+const localStorageSimulator = require('../mocks/localStorageSimulator');
+const getSavedCartItems = require('../helpers/getSavedCartItems');
+
+localStorageSimulator('getItem');
+
+describe('4 - Teste a função getSavedCartItems', () => {
+  it('Teste se, ao executar getSavedCartItems, o método localStorage.getItem é chamado;', async () => {
+    getSavedCartItems();
+    expect(localStorage.getItem).toHaveBeenCalled(); //https://jestjs.io/pt-BR/docs/expect#tohavebeencalled
+  });
+
+  it('Teste se, ao executar getSavedCartItems, o método localStorage.getItem é chamado com o "cartItems" como parâmetro.', async () => {
+    getSavedCartItems();
+    expect(localStorage.getItem).toHaveBeenCalledWith('cartItems'); //https://jestjs.io/pt-BR/docs/expect#tohavebeencalled
+  });
+});
