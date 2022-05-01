@@ -11,7 +11,7 @@ O intúito do projeto foi criar um ecommerce fictício, para aprimorar e por em 
 
 ## Resultado final: 
 <div>
-   <img align="center" alt="capa" src="https://user-images.githubusercontent.com/95686401/166163579-815a7f60-0b1d-4c9d-91f2-07efdef19d6b.gif" />
+   <img align="center" alt="capa" src="https://user-images.githubusercontent.com/95686401/166164778-fb235b73-90a8-4d71-bfaa-4ac91d3fe7ae.gif" />
 </div>
 
 ## 🚀 Se sinta a vontade para pontuar qualquer observação! Adoraria saber onde posso melhorar. Se quiser entrar em contato, você pode me mandar uma mensagem no <a href="https://www.linkedin.com/in/vitoria-meinerz/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0ba2be?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 🚀
