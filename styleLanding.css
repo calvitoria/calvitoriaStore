@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    /* font-family: Epilogue, sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  /* background-image: url('https://user-images.githubusercontent.com/95686401/166151037-8d316e2f-c782-4c4c-a284-e1cd8b72bf64.png'); */
+  /* background-size: cover; */
+  background-color: rgb(65, 71, 83);
+}
+
+.btnSection {
+    display: flex;
+    background-color: rgb(215, 175, 255);
+    /* background-color: rgb(65, 71, 83); */
+    justify-content: space-between;    
+    align-content: center;
+    padding: 15px 5px;    
+}
+
+.leftHeader {
+ display: flex;
+ align-content: space-around;
+ padding: 0 15px;
+}
+
+.Btns {
+ padding-right: 15px;
+ align-self: center;
+}
+
+.logIn {
+  background-color: rgb(175, 135, 255);
+  font-weight: 600;
+  color: white;
+  padding: 2px 18px;
+  border: 1px solid rgb(175, 135, 255);
+  border-radius:1em;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: 16px;
+  align-self: center;
+}
+
+.logIn:hover {
+  background-color: rgb(11, 162, 190);
+  color: white;
+}
+
+.title {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  align-self: center;
+  margin-left: 5px
+}
+
+.title:hover {
+  text-decoration: none;
+  color: rgb(11, 162, 190);
+}
+
+/* main */
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  padding-top: 100px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-self: center;  
+}
+
+.right img {
+  width: 90%;
+}
+
+/* h1 */
+.text {
+  color: white;
+  text-align: left;
+  font-size: 65px;
+  font-weight: 300;  
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+/* botão go to shop */
+.shop {
+  padding: 10px 70px;
+  font-size: 20px;    
+  border: 3px solid rgb(11, 162, 190);
+  background-color: rgb(11, 162, 190);
+  color: white;
+  border-radius: 2em;
+  text-decoration: none;
+}
+
+.shop:hover {
+  border: 3px solid rgb(88, 208, 230);
+  background-color: rgb(88, 208, 230);
+}

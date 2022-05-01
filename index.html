@@ -1,42 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Calvitoria's Store</title>
-    <link rel="icon" href="https://user-images.githubusercontent.com/95686401/165600233-7d0c6a3d-51ec-4d99-ab09-fbf6c02575da.png" type="imagem/png" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="./helpers/fetchItem.js" defer></script>
-    <script src="./helpers/fetchProducts.js" defer></script>
-    <script src="./helpers/saveCartItems.js" defer></script>
-    <script src="./helpers/getSavedCartItems.js" defer></script>
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container-title">
-        <span class="title"><strong>Calvitoria</strong>Store</span>
-      </div>
-      <i class="material-icons" style="font-size:35px;color:white">shopping_cart</i>
-      
-      <div class="container-cartTitle">
-        <span class="cart__title">Meu carrinho 🤍</span>
-      </div>
-    </header>
-    <section class="container">
-      <section class="items"></section>
-      <section class="cart">
-        <ol class="cart__items"></ol>
-        <div class="containerPrice">
-          <span>SubTotal:  R$</span> <span class="total-price">0</span>
-        </div>
-        <button class="empty-cart">Esvaziar carrinho</button>
-      </section>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Calvitoria's Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon"
+    href="https://user-images.githubusercontent.com/95686401/165600233-7d0c6a3d-51ec-4d99-ab09-fbf6c02575da.png"
+    type="imagem/png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="./js-helpers/fetchItem.js" defer></script>
+  <script src="./js-helpers/fetchProducts.js" defer></script>
+  <script src="./js-helpers/saveCartItems.js" defer></script>
+  <script src="./js-helpers/getSavedCartItems.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="sectionsSearch">
+    <a class="navItem" id="home" href="landing.html"> <strong>home</strong></a>
+    <p class="navItem" id="papelaria">papelaria</p>
+    <p class="navItem" id="skincare">skincare</p>
+    <p class="navItem" id="perfumaria">perfumaria</p>
+    <p class="navItem" id="storage">storage</p>
+    <p class="navItem" id="geek">geek</p>
+    <p class="navItem" id="decoração">decoração</p>
+    <p class="navItem" id="literatura">literatura</p>
+    <section class="search-box">
+      <i id="search-icon" class="material-icons" style="font-size:25px;color:rgb(215, 175, 255)">search</i>
+      <input id="inputSearch" type="text" class="search" placeholder="o que você está procurando?">
+      <button class="btnSearch">buscar</button>
     </section>
-  </body>
+  </nav>
+  <header class="header">
+    <img src="https://user-images.githubusercontent.com/95686401/166110580-512c870b-cd59-4c58-94c2-7eef98dcdcbc.png"
+      alt="">
+    <div class="container-title">
+      <span class="title">Calvitoria<strong>Store</strong></span>
+    </div>
+
+    <i class="material-icons" style="font-size:35px;color:white">shopping_cart</i>
+
+    <div class="container-cartTitle">
+      <span class="cart__title">Meu carrinho 🤍</span>
+    </div>
+  </header>
+  <section class="container">
+    <section class="items">
+      <img class="imgCalvitoria" src="https://user-images.githubusercontent.com/95686401/166160479-374dbf0e-88cc-4be1-9bfc-5ca767f19628.png" alt="">
+      <!-- <img class="imgCalvitoria" src="https://user-images.githubusercontent.com/95686401/166160020-7481ca45-f212-4c4e-a85d-7be3817cb61f.png" alt=""> -->
+    </section>
+    <section class="cart">
+      <ol class="cart__items"></ol>
+      <div class="containerPrice">
+        <span>Total: R$</span> <span class="total-price">0</span>
+      </div>
+      <div class="btnsCart">
+        <button class="empty-cart">Esvaziar carrinho</button>
+        <button class="comprar">Finalizar compra</button>
+      </div>
+    </section>
+  </section>
+</body>
+
 </html>
