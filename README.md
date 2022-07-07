@@ -1,6 +1,3 @@
-<div style="display: inline_block">    
-  <img align="right" alt="todo list"  width="130px" src="https://media4.giphy.com/media/Qyz3XUSQFMnTa5AqAb/giphy.gif?cid=ecf05e47395be36ef6ec96ed55416bf532bf3789c3e5cf6b&rid=giphy.gif&ct=s" />   
-</div>
 
 ## Bem vindo ao repositório dedicado ao projeto CalvitoriaStore! 
 O intúito do projeto foi criar um ecommerce fictício, para aprimorar e por em prática meus conhecimentos adquiridos no módulo de fundamentos da Trybe. Utilizei meus conhecimentos em HTML, CSS, e JavaScript juntamente com a manipulação de API (do mercado livre) para criar essa lojinha. Vale ressaltar que ainda não estou 100% satisfeita com o resultado, e ainda tenho alguns pontos a melhorar, como adcionar media queries, ajustar alguns alerts e pequenos detalhes de alinhamentos gráficos.
